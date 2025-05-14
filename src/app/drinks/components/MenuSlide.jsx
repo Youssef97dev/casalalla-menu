@@ -36,7 +36,7 @@ const MenuSlide = () => {
   }, []);
   return !isClient ? (
     <div className="w-full h-[60vh] lg:h-screen flex justify-center items-center">
-      <MoonLoader size={60} color="#c6b24e" loading />
+      <MoonLoader size={60} color="#000000" loading />
     </div>
   ) : (
     <div className="px-5 py-8 lg:px-72 lg:py-10">
