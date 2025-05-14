@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const Navbar = () => {
   return (
-    <div className="relative w-full flex justify-start items-center bg-primary pb-2 shadow-lg z-50">
+    <div className="relative w-full flex justify-start items-center bg-primary pb-1 shadow-lg z-50">
       <div
         className="w-full flex justify-start items-center bg-background h-[12vh] pl-5 gap-2"
         style={{
